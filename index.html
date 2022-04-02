@@ -1,51 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<style> 
+div.a {
+  width: 150px;
+  height: 80px;
+  background-color: rgb(43, 0, 255);
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+}
 
+div.b {
+  width: 150px;
+  height: 80px;
+  background-color: rgb(255, 0, 85);
+  -ms-transform: skewY(20deg); /* IE 9 */
+  transform: skewY(20deg);
+}
+
+div.c {
+  width: 150px;
+  height: 80px;
+  background-color: rgb(255, 47, 0);
+  -ms-transform: scaleY(1.5); /* IE 9 */
+  transform: scaleY(1.5);
+}
+</style>
 </head>
 <body>
-    <div class="dropdown">
-        <div class="dropdown-toggle" data-toggle="dropdown">
-          des sites web
-        </div>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="https://www.facebook.com" >facebook</a>
-          <a class="dropdown-item" href="https://www.google.com" >google</a>
-          <a class="dropdown-item" href="https://www.youtube.com" >youtube</a>
-        </div>
-      </div>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>y'
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-      <button class="btn btn-light">éclairée</button>
-<button class="btn btn-primary">important</button>
-<button class="btn btn-success">succès</button>
-<button class="btn btn-info">information</button>
-<button class="bnt btn-warning">attention</button>
-<button class="btn btn-danger">danger</button>
-<button class="btn btn-secondary">secondaire</button>
-<button class="btn btn-dark">gris foncé</button>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" > </script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" > </script>
+
+<h1>The transform Property</h1>
+
+<h2>transform: rotate(20deg):</h2>
+<div class="a">Hello World!</div>
+<br>
+
+<h2>transform: skewY(20deg):</h2>
+<div class="b">Hello World!</div>
+<br>
+
+<h2>transform: scaleY(1.5):</h2>
+<div class="c">Hello World!</div>
+
 </body>
 </html>
